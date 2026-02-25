@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/medical-legacy-creator/",
+  // base: "/medical-legacy-creator/",
   test: {
     environment: "jsdom",
     globals: true,
