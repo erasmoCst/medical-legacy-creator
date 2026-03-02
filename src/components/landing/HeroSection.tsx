@@ -1,23 +1,29 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import teamHero from "@/assets/team-hero.jpg";
+import heroDesktop from "@/assets/team-hero-desktop.jpg";
+import heroMobile from "@/assets/team-hero-mobile.png";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-[110vh] md:min-h-screen flex items-end md:items-center pt-20 pb-16 md:pb-0 relative overflow-hidden">
-      {/* Background image - centered on faces for mobile */}
-      <div
-        className="absolute inset-0 bg-cover bg-[center_20%] md:bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${teamHero})` }}
-      />
+    <section className="min-h-screen flex items-end md:items-center pb-16 md:pb-0 relative overflow-hidden">
+      {/* Background responsivo */}
+      <div className="absolute inset-0">
+        <picture>
+          {/* Desktop */}
+          <source media="(min-width: 768px)" srcSet={heroDesktop} />
 
-      {/* Black gradient from bottom to top - stronger on mobile */}
+          {/* Mobile (fallback) */}
+          <img
+            src={heroMobile}
+            alt=""
+            className="w-full h-full object-cover object-[center_30%] md:object-[center_20%]" />
+        </picture>
+      </div>
+
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 md:via-black/70 to-transparent" />
-
-      {/* Lateral gradient for text readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
 
-      <div className="container mx-auto px-6 py-8 md:py-32 relative z-10">
+      <div className="container mx-auto px-6 relative z-10 pb-8 pt-20 md:py-32">
         <div className="max-w-3xl">
           {/* Text content */}
           <div className="text-left">
