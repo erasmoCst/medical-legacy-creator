@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   // base: "/medical-legacy-creator/",
-  base: '/landing/',
+  // base: '/landing/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
