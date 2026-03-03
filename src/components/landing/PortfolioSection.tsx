@@ -15,55 +15,70 @@ import portfolioVideo6 from "@/assets/portfolio-video-6.mp4";
 import portfolioVideo7 from "@/assets/portfolio-video-7.mp4";
 import portfolioVideo8 from "@/assets/portfolio-video-8.mp4";
 import portfolioVideo9 from "@/assets/portfolio-video-9.mp4";
+import portfolioVideo10 from "@/assets/portfolio-video-10.mp4";
+import portfolioVideo11 from "@/assets/portfolio-video-11.mp4";
 
 const portfolioItems = [
   {
     id: 2,
-    title: "Clínica Vida Saudável",
-    description: "Rebranding completo e estratégia digital",
+    title: "Dr. Fabiano de Andrea",
+    description: "Conteúdo que gera identificação real e entrega valor prático na vida do paciente.",
     video: portfolioVideo2,
   },
   {
     id: 3,
-    title: "Dra. Camila Ferreira",
-    description: "Conteúdo educativo e autoridade médica",
+    title: "Dra. Esther Barrios",
+    description: "Experiência do paciente e jornada digital",
     video: portfolioVideo3,
   },
   {
     id: 4,
-    title: "Centro Médico Premium",
-    description: "Experiência do paciente e jornada digital",
+    title: "Dr. Edson Blanco",
+    description: "Estratégia de conteúdo e posicionamento com o doutor como principal prova social, autoridade construída na prática, não apenas no discurso.",
     video: portfolioVideo4,
   },
   {
     id: 5,
-    title: "Dr. André Oliveira",
-    description: "Performance e captação de pacientes",
+    title: "Dr. Fabiano de Andrea",
+    description: "Conteúdo que gera identificação real e entrega valor prático na vida do paciente, o famoso vender sem precisar vender.",
     video: portfolioVideo5,
   },
   {
     id: 6,
-    title: "Dra. Marina Costa",
-    description: "Estratégia de conteúdo e posicionamento",
+    title: "Dra. Elisa Kubo",
+    description: "Conteúdo educativo e autoridade.",
     video: portfolioVideo6,
   },
   {
     id: 7,
-    title: "Lorem Ipsum Dolor",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    title: "Dra. Aline Mello",
+    description: "Storytelling clínico estratégico.",
     video: portfolioVideo7,
   },
   {
     id: 8,
-    title: "Amet Consectetur",
-    description: "Sed do eiusmod tempor incididunt ut labore et dolore magna",
+    title: "Dra. Patrícia Cabral",
+    description: "Posicionamento conceitual + Autoridade de tendência.",
     video: portfolioVideo8,
   },
   {
-    id: 9,
-    title: "Adipiscing Elit",
-    description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+    id: 8,
+    title: "Nutricionista Paula Prado",
+    description: "Conteúdo que cria conexão genuína e oferece orientação prática para o dia a dia do paciente.",
     video: portfolioVideo9,
+  },
+  {
+    id: 10,
+    title: "Dra. Patricia Cabral",
+    description: "Conteúdo de validação e conversão.",
+    video: portfolioVideo10,
+  },
+
+  {
+    id: 11,
+    title: "Dra. Elisa Kubo",
+    description: "Esse tipo de vídeo é excelente para posicionamento quando é técnico, educativo e conduz para diagnóstico, e não apenas “dica de produtinho”.",
+    video: portfolioVideo11,
   },
 ];
 
