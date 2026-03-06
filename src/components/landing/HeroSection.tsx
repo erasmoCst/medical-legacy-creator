@@ -45,13 +45,13 @@ const HeroSection = () => {
             <div className="animate-fade-up opacity-0 animation-delay-300 flex flex-col sm:flex-row gap-4">
               <a href="https://wa.me/5541987987873" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-terracotta text-white hover:bg-terracotta-dark shadow-elevated hover:shadow-soft text-base px-8 py-6 rounded-full transition-all duration-300 hover:-translate-y-1">
-                  Quero construir meu legado
+                  Quero estruturar meu posicionamento
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </a>
               <a href="https://wa.me/5541987987873" target="_blank" rel="noopener noreferrer">
                 <Button className="border-2 border-beige/30 text-beige hover:bg-beige/10 text-base px-8 py-6 rounded-full transition-all duration-300 bg-transparent">
-                  Conhecer a Rebrave
+                  Conhecer a Rebravè
                 </Button>
               </a>
             </div>

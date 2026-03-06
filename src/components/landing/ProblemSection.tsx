@@ -3,17 +3,17 @@ import { Calendar, Eye, MessageSquare, TrendingDown } from "lucide-react";
 const problems = [
   {
     icon: Calendar,
-    title: "Agenda instável",
+    title: "Crescimento sem previsibilidade",
     description: "Meses cheios, meses vazios. A falta de previsibilidade compromete seu planejamento e seu crescimento.",
   },
   {
     icon: Eye,
-    title: "Presença digital fraca",
+    title: "Presença digital desalinhada à sua expertise",
     description: "Perfis genéricos que não comunicam sua especialidade nem transmitem a autoridade que você construiu.",
   },
   {
     icon: MessageSquare,
-    title: "Comunicação sem autoridade",
+    title: "Comunicação que não traduz sua autoridade",
     description: "Conteúdo sem estratégia que não diferencia você dos milhares de outros profissionais no mercado.",
   },
   {

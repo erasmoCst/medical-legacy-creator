@@ -23,7 +23,7 @@ const AboutSection = () => {
             </p>
 
             <p className="font-sans text-lg md:text-xl text-graphite-dark leading-relaxed">
-              Somos especialistas em dermatologia, cirurgia plástica e nutrologia, nichos onde percepção de valor e posicionamento são decisivos.
+              Temos forte atuação em dermatologia, cirurgia plástica e nutrologia, especialidades onde posicionamento e percepção de valor são decisivos.
             </p>
 
             <p className="font-sans text-lg md:text-xl text-graphite-dark leading-relaxed font-medium">
