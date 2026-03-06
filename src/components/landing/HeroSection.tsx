@@ -51,7 +51,7 @@ const HeroSection = () => {
               </a>
               <a href="https://wa.me/5541987987873" target="_blank" rel="noopener noreferrer">
                 <Button className="border-2 border-beige/30 text-beige hover:bg-beige/10 text-base px-8 py-6 rounded-full transition-all duration-300 bg-transparent">
-                  Conhecer a Rebravè
+                  Conhecer a Re Bravè Med
                 </Button>
               </a>
             </div>
