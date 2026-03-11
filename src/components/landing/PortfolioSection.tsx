@@ -20,65 +20,64 @@ import portfolioVideo11 from "@/assets/portfolio-video-11.mp4";
 
 const portfolioItems = [
   {
-    id: 2,
-    title: "Dr. Fabiano de Andrea",
-    description: "Conteúdo que gera identificação real e entrega valor prático na vida do paciente.",
-    video: portfolioVideo2,
-  },
-  {
-    id: 3,
-    title: "Dra. Esther Barrios",
-    description: "Experiência do paciente e jornada digital",
-    video: portfolioVideo3,
-  },
-  {
-    id: 4,
-    title: "Dr. Edson Blanco",
-    description: "Estratégia de conteúdo e posicionamento com o doutor como principal prova social, autoridade construída na prática, não apenas no discurso.",
-    video: portfolioVideo4,
-  },
-  {
-    id: 5,
-    title: "Dr. Fabiano de Andrea",
-    description: "Conteúdo que gera identificação real e entrega valor prático na vida do paciente, o famoso vender sem precisar vender.",
-    video: portfolioVideo5,
-  },
-  {
-    id: 6,
+    id: 1,
     title: "Dra. Elisa Kubo",
     description: "Conteúdo educativo e autoridade.",
     video: portfolioVideo6,
   },
   {
-    id: 7,
+    id: 2,
+    title: "Dra. Esther Barrios",
+    description: "Experiência do paciente e jornada digital",
+    video: portfolioVideo3,
+  },
+  {
+    id: 3,
+    title: "Dr. Edson Blanco",
+    description: "Estratégia de conteúdo e posicionamento com o doutor como principal prova social, autoridade construída na prática, não apenas no discurso.",
+    video: portfolioVideo4,
+  },
+  {
+    id: 4,
+    title: "Dr. Fabiano de Andrea",
+    description: "Conteúdo que gera identificação real e entrega valor prático na vida do paciente, o famoso vender sem precisar vender.",
+    video: portfolioVideo5,
+  },
+  {
+    id: 5,
     title: "Dra. Aline Mello",
     description: "Storytelling clínico estratégico.",
     video: portfolioVideo7,
   },
   {
-    id: 8,
+    id: 6,
     title: "Dra. Patrícia Cabral",
     description: "Posicionamento conceitual + Autoridade de tendência.",
     video: portfolioVideo8,
   },
   {
-    id: 8,
+    id: 7,
     title: "Nutricionista Paula Prado",
     description: "Conteúdo que cria conexão genuína e oferece orientação prática para o dia a dia do paciente.",
     video: portfolioVideo9,
   },
   {
-    id: 10,
+    id: 8,
     title: "Dra. Patricia Cabral",
     description: "Conteúdo de validação e conversão.",
     video: portfolioVideo10,
   },
-
   {
-    id: 11,
+    id: 9,
     title: "Dra. Elisa Kubo",
     description: "Esse tipo de vídeo é excelente para posicionamento quando é técnico, educativo e conduz para diagnóstico, e não apenas “dica de produtinho”.",
     video: portfolioVideo11,
+  },
+  {
+    id: 10,
+    title: "Dr. Fabiano de Andrea",
+    description: "Conteúdo que gera identificação real e entrega valor prático na vida do paciente.",
+    video: portfolioVideo2,
   },
 ];
 
