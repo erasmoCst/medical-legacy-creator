@@ -29,10 +29,17 @@ const AboutSection = () => {
             <p className="font-sans text-lg md:text-xl text-graphite-dark leading-relaxed font-medium">
               Nosso propósito é claro: transformar presença digital em autoridade real e crescimento consistente, construindo marcas médicas sólidas e duradouras.
             </p>
+
+            <p className="font-sans text-lg md:text-xl text-graphite-dark leading-relaxed font-bold">
+              Não somos uma agência de posts.
+            </p>
+
+            <p className="font-sans text-lg md:text-xl text-graphite-dark leading-relaxed">
+              Estruturamos posicionamento médico com base em estratégia, experiência do paciente e performance dentro das diretrizes do CFM.            </p>
           </div>
 
           {/* Decorative element with logo */}
-          <div className="mt-12 mb-12 flex justify-center">
+          {/* <div className="mt-12 mb-12 flex justify-center">
             <div className="w-20 h-20 rounded-full bg-terracotta flex items-center justify-center p-3">
               <img
                 src={logoRebrave}
@@ -40,15 +47,8 @@ const AboutSection = () => {
                 className="w-full h-auto object-contain"
               />
             </div>
-          </div>
-          <p className="font-sans font-bold text-lg md:text-xl text-graphite-dark leading-relaxed">
-            Não somos uma agência de posts.
-          </p>
+          </div> */}
 
-          <div className="space-y-6">
-            <p className="font-sans text-lg md:text-xl text-graphite-dark leading-relaxed">
-              Estruturamos posicionamento médico com base em estratégia, experiência do paciente e performance dentro das diretrizes do CFM.            </p>
-          </div>
         </div>
       </div>
     </section>

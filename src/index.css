@@ -25,7 +25,8 @@
     --accent-foreground: 40 20% 97%;
 
     /* Beige - Secondary */
-    --secondary: 35 25% 92%;
+    --secondary: 0 25% 92%;
+    --secondary-dark: 0 0% 35%;
     --secondary-foreground: 0 0% 30%;
 
     --muted: 35 15% 90%;
@@ -83,6 +84,7 @@
     --primary: 40 20% 97%;
     --primary-foreground: 220 10% 10%;
     --secondary: 220 8% 18%;
+    --secondary-dark: 0 0% 35%;
     --secondary-foreground: 40 20% 97%;
     --muted: 220 8% 18%;
     --muted-foreground: 40 15% 65%;

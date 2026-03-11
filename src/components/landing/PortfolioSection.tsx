@@ -108,7 +108,7 @@ const PortfolioCard = ({ item }: { item: typeof portfolioItems[0] }) => {
 
   return (
     <div className="group cursor-pointer">
-      <div 
+      <div
         className="relative bg-graphite-dark rounded-2xl overflow-hidden mb-6 shadow-elevated group-hover:shadow-soft transition-all duration-300"
         style={{ aspectRatio: '9/16' }}
         onClick={handlePlayClick}
@@ -152,14 +152,14 @@ const PortfolioCard = ({ item }: { item: typeof portfolioItems[0] }) => {
             </div>
           </div>
         )}
-        
+
         <div className="absolute inset-0 bg-terracotta/0 group-hover:bg-terracotta/5 transition-colors duration-300 pointer-events-none" />
       </div>
-      
-      <h3 className="font-serif text-xl font-medium text-graphite-dark mb-2 group-hover:text-terracotta transition-colors duration-300">
+
+      <h3 className="font-serif text-xl font-medium text-offwhite mb-2 group-hover:text-terracotta transition-colors duration-300">
         {item.title}
       </h3>
-      <p className="font-sans text-muted-foreground">
+      <p className="font-sans text-offwhite">
         {item.description}
       </p>
     </div>
@@ -168,17 +168,22 @@ const PortfolioCard = ({ item }: { item: typeof portfolioItems[0] }) => {
 
 const PortfolioSection = () => {
   return (
-    <section id="portfolio" className="py-16 md:py-24 bg-secondary">
+    <section id="portfolio" className="py-16 md:py-24 bg-secondary-dark">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="inline-block text-sm font-sans uppercase tracking-[0.25em] text-terracotta mb-6 font-medium">
             Portfólio
           </span>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-medium text-graphite-dark mb-8 text-balance leading-tight">
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-medium text-offwhite mb-8 text-balance leading-tight">
             Nossos trabalhos em destaque
           </h2>
-          <p className="font-sans text-lg text-muted-foreground max-w-2xl mx-auto">
-            Conheça alguns dos projetos que desenvolvemos para médicos e clínicas que buscam excelência.
+          <p className="font-sans text-lg text-offwhite max-w-2xl mx-auto">
+            <span className="block">
+              Conheça alguns dos projetos que desenvolvemos
+            </span>
+            <span className="block">
+              para médicos e clínicas que buscam excelência.
+            </span>
           </p>
         </div>
 
@@ -197,7 +202,7 @@ const PortfolioSection = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            
+
             <div className="flex items-center justify-center gap-4 mt-12">
               <CarouselPrevious className="relative static translate-y-0 border-graphite-light text-graphite hover:bg-graphite hover:text-beige h-12 w-12" />
               <CarouselNext className="relative static translate-y-0 border-graphite-light text-graphite hover:bg-graphite hover:text-beige h-12 w-12" />

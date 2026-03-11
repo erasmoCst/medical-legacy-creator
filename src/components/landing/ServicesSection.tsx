@@ -35,16 +35,16 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="servicos" className="py-16 md:py-24 bg-secondary">
+    <section id="servicos" className="py-16 md:py-24 bg-secondary-dark">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-20">
           <span className="inline-block text-sm font-sans uppercase tracking-[0.25em] text-terracotta mb-6 font-medium">
             Como Fazemos
           </span>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-medium text-graphite-dark mb-8 text-balance leading-tight">
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-medium text-offwhite mb-8 text-balance leading-tight">
             Soluções completas para sua presença médica.
           </h2>
-          <p className="font-sans text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+          <p className="font-sans text-lg text-offwhite leading-relaxed max-w-2xl mx-auto">
             Cada serviço é pensado para construir, passo a passo, 
             a autoridade que seu trabalho merece.
           </p>

@@ -1,24 +1,34 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroDesktop from "@/assets/team-hero-desktop.jpg";
+import heroDesktop from "@/assets/team-hero-desktop.png";
 import heroMobile from "@/assets/team-hero-mobile.png";
 
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-end md:items-center pb-16 md:pb-0 relative overflow-hidden">
-      {/* Background responsivo */}
-      <div className="absolute inset-0">
-        <picture>
-          {/* Desktop */}
-          <source media="(min-width: 768px)" srcSet={heroDesktop} />
 
-          {/* Mobile (fallback) */}
-          <img
-            src={heroMobile}
-            alt=""
-            className="w-full h-full object-cover object-[center_30%] md:object-[center_20%]" />
-        </picture>
-      </div>
+      {/* Background */}
+      <div
+        className="
+          absolute inset-x-0 top-16 bottom-0 md:top-0
+          bg-cover
+          bg-[center_75%]        /* posição mobile */
+          md:bg-[85%_60%]        /* direita + baixo no desktop */
+        "
+        style={{ backgroundImage: `url(${heroMobile})` }}
+      />
+
+      <div
+        className="
+          absolute inset-x-0 top-16 bottom-0 md:top-0
+          bg-cover
+          hidden md:block
+          bg-[right_top]
+        "
+        style={{ backgroundImage: `url(${heroDesktop})` }}
+      />
+
+
 
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 md:via-black/70 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
@@ -46,7 +56,7 @@ const HeroSection = () => {
               <a href="https://wa.me/5541987987873" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-terracotta text-white hover:bg-terracotta-dark shadow-elevated hover:shadow-soft text-base px-8 py-6 rounded-full transition-all duration-300 hover:-translate-y-1">
                   Quero estruturar meu posicionamento
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                  {/* <ArrowRight className="ml-2 h-5 w-5" /> */}
                 </Button>
               </a>
               <a href="https://wa.me/5541987987873" target="_blank" rel="noopener noreferrer">
